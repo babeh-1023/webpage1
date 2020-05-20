@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +11,11 @@
 	</style>
 </head>
 <body>
-	<nav>
-  		<a href="babeh.html">babeh</a> |
-  		<a href="babeh1.html">babeh1</a> |
-  		<a href="babeh2.html">babeh2</a> |
-  		<a href="babeh3.html">babeh3</a>
-	</nav>
+	<div id="nav"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$("#nav").load("nav.html");
+	</script>
 	<p>this is index page</p>
 		<a href="babeh.html"><input id=b1 type="button" value="this is test1" style="width:120px;height:40px;font-size:20px;"></a>
 		<br><br><br>
